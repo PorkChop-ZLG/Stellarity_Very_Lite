@@ -7,6 +7,9 @@ execute if entity @s[tag=fe.exit_portal] run function far_end:structures/exit_po
 # Scheduled checks for End Portal animation
 execute if entity @s[tag=stellarity.end_portal_animation,tag=stellarity.end_portal_animation.check_schedule] run function stellarity:sfx/end_portal/checks/base
 
+execute if entity @s[tag=stellarity.end_portal] run function stellarity:sfx/end_portal/marker_loop
+execute if entity @s[tag=stellarity.end_portal_animation] run function stellarity:sfx/end_portal/open_animation/main
+
 # Dragon markers
 execute if entity @s[tag=stellarity.dragon_fireball] run function stellarity:mobs/dragon/attacks/fireball/main
 execute if entity @s[tag=stellarity.dragon.shulkers] run function stellarity:mobs/dragon/attacks/take_off/shulkers/main
