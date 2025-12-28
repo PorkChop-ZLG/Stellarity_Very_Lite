@@ -1,0 +1,143 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sculk",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							},
+							"add": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							},
+							"add": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							},
+							"add": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -2,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": [
+								"minecraft:unbreaking",
+								"minecraft:mending"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "irons_spellbooks:chests/additional_generic_loot"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "dragonsurvival:heart_element",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "dragonsurvival:weak_dragon_heart",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "dragonsurvival:elder_dragon_heart",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.01
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "terra_curio:shot_put"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "terra_curio:flashlight"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,106 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 10,
+				"max": 13
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"name": "minecraft:cobweb",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							},
+							"add": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:string",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 6,
+								"max": 10
+							},
+							"add": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "irons_spellbooks:chests/additional_generic_loot"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "dragonsurvival:heart_element",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "dragonsurvival:weak_dragon_heart",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "dragonsurvival:elder_dragon_heart",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.01
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "terra_curio:shot_put"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "terra_curio:flashlight"
+				}
+			]
+		}
+	]
+}
