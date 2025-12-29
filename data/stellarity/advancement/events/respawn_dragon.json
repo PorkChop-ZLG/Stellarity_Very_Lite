@@ -1,5 +1,4 @@
 {
-  "parent": "minecraft:end/kill_dragon",
   "criteria": {
     "summoned_dragon": {
       "conditions": {
@@ -16,20 +15,6 @@
       "trigger": "minecraft:summoned_entity"
     }
   },
-  "display": {
-    "hidden": true,
-    "description": {
-      "translate": "advancements.end.respawn_dragon.description"
-    },
-    "frame": "goal",
-    "icon": {
-      "count": 1,
-      "id": "minecraft:end_crystal"
-    },
-    "title": {
-      "translate": "advancements.end.respawn_dragon.title"
-    }
-  },
   "requirements": [
     [
       "summoned_dragon"
@@ -37,6 +22,5 @@
   ],
   "rewards": {
     "function": "stellarity:sfx/close_door/main"
-  },
-  "sends_telemetry_event": true
+  }
 }
