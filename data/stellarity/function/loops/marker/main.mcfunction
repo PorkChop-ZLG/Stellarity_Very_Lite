@@ -2,7 +2,7 @@
 
 # Exit Portal loop
 # Used for stuff like respawn checks, etc.
-execute if entity @s[tag=fe.exit_portal] run function far_end:structures/exit_portal/main
+# execute if entity @s[tag=fe.exit_portal] run function far_end:structures/exit_portal/main
 
 # Scheduled checks for End Portal animation
 execute if entity @s[tag=stellarity.end_portal_animation,tag=stellarity.end_portal_animation.check_schedule] run function stellarity:sfx/end_portal/checks/base

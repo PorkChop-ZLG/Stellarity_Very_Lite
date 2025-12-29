@@ -16,7 +16,7 @@ execute as @e[type=marker,tag=stellarity.marker] at @s run function stellarity:l
 # execute if entity @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob,predicate=stellarity:locations/dragons_den/in_biome] run schedule function stellarity:mobs/dragon/butcher/scheduled 1t append
 
 # End City Crystal loop
-execute as @e[type=end_crystal,tag=stellarity.end_city.crystal] at @s run function stellarity:post_gen/end_city/crystal/main
+# execute as @e[type=end_crystal,tag=stellarity.end_city.crystal] at @s run function stellarity:post_gen/end_city/crystal/main
 
 # Moved from far_end:structures/check
 # execute as @e[type=minecraft:end_crystal,predicate=stellarity:mobs/dragon/exit_portal_crystal] at @s run function far_end:structures/replace/exit_portal
