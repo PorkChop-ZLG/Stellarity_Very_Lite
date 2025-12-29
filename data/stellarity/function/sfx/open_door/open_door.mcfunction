@@ -1,0 +1,1 @@
+function stellarity:sfx/open_door/find_spawn_pos/main
