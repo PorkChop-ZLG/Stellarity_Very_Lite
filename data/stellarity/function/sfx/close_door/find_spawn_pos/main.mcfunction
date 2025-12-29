@@ -2,4 +2,4 @@
 
 
 # 生成marker实体
-execute in minecraft:the_end positioned 0 0 0 summon marker run function stellarity:sfx/open_door/find_spawn_pos/set-marker
+execute in minecraft:the_end positioned 0 0 0 summon marker run function stellarity:sfx/close_door/find_spawn_pos/set-marker
