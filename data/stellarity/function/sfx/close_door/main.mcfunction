@@ -1,5 +1,5 @@
 # 输出提示
-tellraw @a {"text":"末影龙已重生，暮色森林传送门已关闭","color":"gold"}
+tellraw @a {"translate":"message.stellarity.respawn_dragon","color":"dark_purple","bold":true}
 
 # 执行撤销进度函数
 function stellarity:sfx/close_door/revoke_respawn_dragon

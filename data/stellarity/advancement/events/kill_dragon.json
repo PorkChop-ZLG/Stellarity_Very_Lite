@@ -17,6 +17,7 @@
     }
   },
   "display": {
+    "hidden": true,
     "description": {
       "translate": "advancements.end.kill_dragon.description"
     },

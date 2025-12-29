@@ -5,3 +5,6 @@ setblock ~ ~ ~ structure_block[mode=load]{name:"far_end:exit_portal/deactivated"
 setblock ~ ~1 ~ minecraft:redstone_block
 
 kill @s
+
+# 输出提示
+execute as @a in minecraft:the_end run tellraw @s {"translate":"message.stellarity.close_door","color":"dark_aqua","bold":true}

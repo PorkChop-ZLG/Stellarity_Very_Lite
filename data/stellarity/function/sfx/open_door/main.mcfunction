@@ -1,5 +1,5 @@
 # 输出提示
-tellraw @a {"text":"你已击杀末影龙，暮色森林传送门已生成","color":"gold"}
+tellraw @a {"translate":"message.stellarity.kill_dragon","color":"dark_purple","bold":true}
 
 # 执行撤销进度函数
 function stellarity:sfx/open_door/revoke_kill_dragon
