@@ -1,12 +1,12 @@
 {
 	"values": [
 		{
-			"id": "stellarity:blazing_dunes",
+			"id": "stellarity:prismatic_dunes",
 			"required": false
 		},
 		"stellarity:endless_dunes",
 		"stellarity:prismatic_dunes",
 		"stellarity:fiery_hills",
-		"far_end:end_wilds"
+		"stellarity:end_wilds"
 	]
 }

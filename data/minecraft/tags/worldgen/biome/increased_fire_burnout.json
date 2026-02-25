@@ -1,11 +1,11 @@
 {
 	"values": [
 		{
-			"id": "far_end:flesh_tundra",
+			"id": "stellarity:flesh_tundra",
 			"required": false
 		},
 		{
-			"id": "stellarity:frosted_hills",
+			"id": "stellarity:frosted_valley",
 			"required": false
 		},
 		"stellarity:flesh_tundra",
@@ -13,8 +13,8 @@
 		"stellarity:the_hallow",
 		"minecraft:end_midlands",
 		"minecraft:end_highlands",
-		"far_end:end_wilds",
-		"far_end:amethyst_forest",
+		"stellarity:end_wilds",
+		"stellarity:amethyst_forest",
 		"stellarity:prismarine_forest"
 	]
 }
